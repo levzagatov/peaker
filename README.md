@@ -34,7 +34,7 @@ Git, Curl, Fish, Fisher.
 <b>Для установки введите в терминал</b> <br>
 sudo apt install git && sudo git clone <a>https://github.com/levzagatov/peaker.git</a>
 <h3>Использование</h3>
-Для запуска введите в термилал<br>
+Для запуска введите в терминал<br>
 sudo bash /home/$USER/peaker/ru.sh<br>
   Нажмите на кнопку [Спасибо, начнём!]. Затем на [OK]. Легко, да? И из терминала только запуск.
 <h3>Если вы хотите нам помочь, напишите нам на <a href="mailto:levzagatov@gmail.com" title="мой email">levzagatov@gmail.com</a>.<h3>
