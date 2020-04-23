@@ -9,7 +9,7 @@ SoftMaker FreeOffice is alternative of MS Office. Linux has LibreOffice or OpenO
 Chromium is open-source version of Google Chrome. Linux has Firefox as default, but it isn't so popular. Firefox isn't so customisable, it conflicts with some sites. Chromium is popular, customisable and easy to use. So Peaker removes Firefox and installs Chromium.
 <br><b>Kate (KDE Advanced Text Editor)</b><br>
 Kate is text editor by KDE. If you have Emacs or XED, try our Peaker. It removes Emacs or XED and installs Kate, what will make your life easier.
-<b>Other programs</b><br>
+<br><b>Other programs</b><br>
 Git, Curl, Fish, Fisher.
 <h3>Installing</h3>
 <b>Type to terminal</b> <br>
@@ -28,7 +28,7 @@ Enter your name. Click Start and wait. So easy, isn't it?
 Все знакомы с Google Chrome. Chromium является версией Chrome. От Chrome он взял все хорошие его черты: настройка с помощью тем, плагины, знакомый интерфейс. В Linux есть Firefox, но он некрасивый, непопулярный, без такого магазина тем и плагинов, как Chromium. Иногда сайты бывают с ним несовместимы. Не беда, Peaker удалит Firefox и установит Chromium.
 <b>Kate (KDE Advanced Text Editor)</b><br>
 Самые популярные текстовые редакторы для Linux, но не самые хорошие: XED и Emacs. Их можно удалить и забыть, что они когда-то были, с помощью Peaker. Вместо них будет использоваться красивый редактор Kate.
-<b>Другие программы</b><br>
+<br><b>Другие программы</b><br>
 Git, Curl, Fish, Fisher.
 <h3>Установка</h3>
 <b>Для установки введите в терминал</b> <br>
