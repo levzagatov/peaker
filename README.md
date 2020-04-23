@@ -15,9 +15,9 @@ Git, Curl, Fish, Fisher.
 <b>Type to terminal</b> <br>
 sudo apt install git && sudo git clone <a>https://github.com/levzagatov/peaker.git</a>
 <h3>How to use Peaker</h3>
-Type
-sudo bash /home/$USER/peaker/en.sh
-Enter your name. Click Start and wait. So easy, isn't it?
+Type<br>
+sudo bash /home/$USER/peaker/en.sh<br>
+Click Start and wait. So easy, isn't it?
 <h3>If you want to help us, please email us to <a href="mailto:levzagatov@gmail.com" title="my email">levzagatov@gmail.com</a>.<h3>
 <h2>Русская версия</h2>
 <h3>О Peaker</h3>
@@ -34,7 +34,7 @@ Git, Curl, Fish, Fisher.
 <b>Для установки введите в терминал</b> <br>
 sudo apt install git && sudo git clone <a>https://github.com/levzagatov/peaker.git</a>
 <h3>Использование</h3>
-Для запуска введите в термилал
-sudo bash /home/$USER/peaker/ru.sh
-Введите своё имя.  Нажмите на кнопку [Спасибо, начнём!]. Затем на [OK]. Легко, да? И из терминала только запуск.
+Для запуска введите в термилал<br>
+sudo bash /home/$USER/peaker/ru.sh<br>
+  Нажмите на кнопку [Спасибо, начнём!]. Затем на [OK]. Легко, да? И из терминала только запуск.
 <h3>Если вы хотите нам помочь, напишите нам на <a href="mailto:levzagatov@gmail.com" title="мой email">levzagatov@gmail.com</a>.<h3>
