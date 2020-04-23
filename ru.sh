@@ -1,12 +1,11 @@
-echo Как к вам обращаться? && read name
-zenity --info --text="$name, приветствую вас в Peaker! Мы установим всё необходимое для работы. Ну, почти всё." --title="Peaker" --ok-label="Спасибо, начнём!"
+zenity --info --text="Приветствую вас в Peaker! Мы установим всё необходимое для работы. Ну, почти всё." --title="Peaker" --ok-label="Спасибо, начнём!"
 apt install chromium-browser -y || zenity --title="Peaker" --error  \
 --text="Ошибка. Проверьте подключение к интернету. Не удалось установить Chromium." \
 --ok-label="OK :(" #installing Chromium
 apt install fish -y || zenity --title="Peaker" --error  \
 --text="Ошибка. Проверьте подключение к интернету. Не удалось установить Fish." \
 --ok-label="OK :(" #installing fish
-echo -n > /home/$USER/.config/fish/fishd.$HOSTNAME
+apt install git && apt install curl && fish curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish 
 echo """# Adaptive russian version of fish greeting by Lev Zagatov. Edited by Picker.
 SET __fish_init_2_39_8:\x1d
 SET __fish_init_2_3_0:\x1d
@@ -36,7 +35,7 @@ SET fish_key_bindings:fish_default_key_bindings
 SET fish_pager_color_completion:\x1d
 SET fish_pager_color_description:B3A06D\x1eyellow
 SET fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
-SET fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan""" >> /home/$USER/.config/fish/fishd.$HOSTNAME #tweaking fish greeting
+SET fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan""" > /home/$USER/.config/fish/fishd.$HOSTNAME #tweaking fish greeting
 apt install softmaker-freeoffice-2018 -y || zenity --title="Peaker" --error  \
 --text="Ошибка. Проверьте подключение к интернету. Не удалось установить FreeOffice." \
 --ok-label="OK :(" #installing SoftMaker FreeOffice
@@ -51,6 +50,8 @@ apt remove firefox -y || zenity --title="Peaker" --error  \
 apt remove xed -y && apt remove emacs -y || zenity --title="Peaker" --error  \
 --text="Ошибка. Не удалось удалить Текстовый редактор XED/Emacs." \
 --ok-label="OK :(" #removing XED Text Editor or Emacs because Kate installed
+apt-get update
+apt-get upgrade
 apt autoremove -y #cleaning cache, tmp files
 zenity --title="Peaker" \
 --info \
