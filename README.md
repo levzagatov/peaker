@@ -18,7 +18,9 @@ sudo apt install git && sudo git clone <a>https://github.com/levzagatov/peaker.g
 Type<br>
 sudo bash /home/$USER/peaker/en.sh<br>
 Click Start and wait. So easy, isn't it?
-<h3>If you want to help us, please email us to <a href="mailto:levzagatov@gmail.com" title="my email">levzagatov@gmail.com</a>.<h3>
+<h3>Post install</h3>
+Open terminal, open menu on item Edit and go to: Preferences > Command. Tick item [Run a command as a login shell] and [Run a custom command instead of my shell]. Enter command fish.
+<h3>If you want to help us, please email us to <a href="mailto:levzagatov@gmail.com" title="my email">levzagatov@gmail.com</a>.</h3>
 <h2>Русская версия</h2>
 <h3>О Peaker</h3>
 <h3>Какие программы будут установлены/удалены с помощью Peaker?</h3>
@@ -36,5 +38,9 @@ sudo apt install git && sudo git clone <a>https://github.com/levzagatov/peaker.g
 <h3>Использование</h3>
 Для запуска введите в термилал<br>
 sudo bash /home/$USER/peaker/ru.sh<br>
-  Нажмите на кнопку [Спасибо, начнём!]. Затем на [OK]. Легко, да? И из терминала только запуск.
-<h3>Если вы хотите нам помочь, напишите нам на <a href="mailto:levzagatov@gmail.com" title="мой email">levzagatov@gmail.com</a>.<h3>
+Нажмите на кнопку [Спасибо, начнём!]. Затем на [OK]. Легко, да? И из терминала только запуск.
+<h3>После установки</h3>
+  Вам нужно будет:
+  <ol><li>Зайти в терминал, перейти по пути Правка > Параметры > Команда, поставить галочку на всех пунктах, изменить комаду на fish</li>
+    <li>Перезапустить терминал.</li>
+<h3>Если вы хотите нам помочь, напишите нам на <a href="mailto:levzagatov@gmail.com" title="мой email">levzagatov@gmail.com</a>.</h3>
