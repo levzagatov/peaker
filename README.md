@@ -10,7 +10,7 @@ Chromium is open-source version of Google Chrome. Linux has Firefox as default, 
 <br><b>Kate (KDE Advanced Text Editor)</b><br>
 Kate is text editor by KDE. If you have Emacs or XED, try our Peaker. It removes Emacs or XED and installs Kate, what will make your life easier.
 <br><b>Other programs</b><br>
-Git, Curl, Fish, Fisher.
+Git, Curl, Fish, Fisher, TricksGamesFun.
 <h3>Installing</h3>
 <b>Type to terminal</b> <br>
 sudo apt install git && sudo git clone <a>https://github.com/levzagatov/peaker.git</a>
@@ -31,16 +31,16 @@ Open terminal, open menu on item Edit and go to: Preferences > Command. Tick ite
 <br><b>Kate (KDE Advanced Text Editor)</b><br>
 Самые популярные текстовые редакторы для Linux, но не самые хорошие: XED и Emacs. Их можно удалить и забыть, что они когда-то были, с помощью Peaker. Вместо них будет использоваться красивый редактор Kate.
 <br><b>Другие программы</b><br>
-Git, Curl, Fish, Fisher.
+Git, Curl, Fish, Fisher, ТрюкиИгрыРазвлеченья.
 <h3>Установка</h3>
 <b>Для установки введите в терминал</b> <br>
 sudo apt install git && sudo git clone <a>https://github.com/levzagatov/peaker.git</a>
 <h3>Использование</h3>
-Для запуска введите в термилал<br>
+Для запуска введите в терминал<br>
 sudo bash /home/$USER/peaker/ru.sh<br>
 Нажмите на кнопку [Спасибо, начнём!]. Затем на [OK]. Легко, да? И из терминала только запуск.
 <h3>После установки</h3>
   Вам нужно будет:
   <ol><li>Зайти в терминал, перейти по пути Правка > Параметры > Команда, поставить галочку на всех пунктах, изменить комаду на fish</li>
-    <li>Перезапустить терминал.</li>
+    <li>Перезапустить терминал.</li></ol>
 <h3>Если вы хотите нам помочь, напишите нам на <a href="mailto:levzagatov@gmail.com" title="мой email">levzagatov@gmail.com</a>.</h3>

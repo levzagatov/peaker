@@ -5,8 +5,9 @@ apt install chromium-browser -y || zenity --title="Peaker" --error  \
 apt install fish -y || zenity --title="Peaker" --error  \
 --text="Ошибка. Проверьте подключение к интернету. Не удалось установить Fish." \
 --ok-label="OK :(" #installing fish
-apt install git && apt install curl && fish curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish 
-echo """# Adaptive russian version of fish greeting by Lev Zagatov. Edited by Picker.
+apt install git && apt install curl && apt install cowsay && apt install sl && fish curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish 
+fish fisher #installing other tools
+bash echo """# Adaptive russian version of fish greeting by Lev Zagatov. Edited by Peaker.
 SET __fish_init_2_39_8:\x1d
 SET __fish_init_2_3_0:\x1d
 SET fish_color_autosuggestion:555\x1ebrblack
