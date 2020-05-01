@@ -10,13 +10,13 @@ Chromium is open-source version of Google Chrome. Linux has Firefox as default, 
 <br><b>Kate (KDE Advanced Text Editor)</b><br>
 Kate is text editor by KDE. If you have Emacs or XED, try our Peaker. It removes Emacs or XED and installs Kate, what will make your life easier.
 <br><b>Other programs</b><br>
-Git, Curl, Fish, Fisher, TricksGamesFun.
+Git, Curl, Fish, Fisher.
 <h3>Installing</h3>
-<b>Type to terminal</b> <br>
-sudo apt install git && sudo git clone <a>https://github.com/levzagatov/peaker.git</a>
+<b>Type to terminal</b>
+<pre>sudo apt install git && sudo git clone <a>https://github.com/levzagatov/peaker.git</a></pre>
 <h3>How to use Peaker</h3>
-Type<br>
-sudo bash /home/$USER/peaker/en.sh<br>
+Type
+<pre>sudo bash /home/$USER/peaker/en.sh</pre>
 Click Start and wait. So easy, isn't it?
 <h3>Post install</h3>
 Open terminal, open menu on item Edit and go to: Preferences > Command. Tick item [Run a command as a login shell] and [Run a custom command instead of my shell]. Enter command fish.
@@ -31,13 +31,13 @@ Open terminal, open menu on item Edit and go to: Preferences > Command. Tick ite
 <br><b>Kate (KDE Advanced Text Editor)</b><br>
 Самые популярные текстовые редакторы для Linux, но не самые хорошие: XED и Emacs. Их можно удалить и забыть, что они когда-то были, с помощью Peaker. Вместо них будет использоваться красивый редактор Kate.
 <br><b>Другие программы</b><br>
-Git, Curl, Fish, Fisher, ТрюкиИгрыРазвлеченья.
+Git, Curl, Fish, Fisher.
 <h3>Установка</h3>
-<b>Для установки введите в терминал</b> <br>
-sudo apt install git && sudo git clone <a>https://github.com/levzagatov/peaker.git</a>
+<b>Для установки введите в терминал</b>
+<pre>sudo apt install git && sudo git clone <a>https://github.com/levzagatov/peaker.git</a></pre>
 <h3>Использование</h3>
-Для запуска введите в терминал<br>
-sudo bash /home/$USER/peaker/ru.sh<br>
+Для запуска введите в терминал
+<pre>sudo bash /home/$USER/peaker/ru.sh</pre>
 Нажмите на кнопку [Спасибо, начнём!]. Затем на [OK]. Легко, да? И из терминала только запуск.
 <h3>После установки</h3>
   Вам нужно будет:

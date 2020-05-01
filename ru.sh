@@ -5,7 +5,7 @@ apt install chromium-browser -y || zenity --title="Peaker" --error  \
 apt install fish -y || zenity --title="Peaker" --error  \
 --text="Ошибка. Проверьте подключение к интернету. Не удалось установить Fish." \
 --ok-label="OK :(" #installing fish
-apt install git && apt install curl && apt install cowsay && apt install sl && fish curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish 
+apt install git && apt install curl && apt install cmatrix && apt install cowsay && apt install sl && fish curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish 
 fish fisher #installing other tools
 bash echo """# Adaptive russian version of fish greeting by Lev Zagatov. Edited by Peaker.
 SET __fish_init_2_39_8:\x1d
@@ -37,6 +37,50 @@ SET fish_pager_color_completion:\x1d
 SET fish_pager_color_description:B3A06D\x1eyellow
 SET fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SET fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan""" > /home/$USER/.config/fish/fishd.$HOSTNAME #tweaking fish greeting
+echo """##
+## TuX
+## (c) pborys@p-soft.silesia.linux.org.pl 
+##
+\$the_cow = <<EOC;
+  \$thoughts
+   \$thoughts
+        ----
+      .-    -.
+      | o__o |
+       | \\/ |
+      //   \\\\
+     (|     |)
+    /'\\_   _/'\\
+    \\___)=(___/
+
+EOC
+""" > /usr/share/cowsay/cows/tux.cow
+touch /usr/share/cowsay/cows/fish.cow
+echo """##
+## Fish
+##
+\$the_cow = <<EOC;
+    \$thoughts
+     \$thoughts
+     
+                 ___
+  ___======____=---=)
+/T            \\_--===)
+[ \\ (O)   \\~    \\_-==)
+ \\      / )J~~    \\-=)
+  \\\\___/  )JJ~~~   \\)
+   \\_____/JJJ~~~~    \\
+   / \\  , \\J~~~~~     \\
+  (-\\)\\=|\\\\\\~~~~       L__
+  (\\\\)  (\\\\\\)_           \\==__
+   \\V    \\\\\\) ===_____   \\\\\\\\\\\\
+          \\V)     \\_) \\\\\\\\JJ\\J\\)
+                      /J\\JT\\JJJJ)
+                      (JJJ| \\UUU)
+                       (UU)
+
+
+EOC""" > /usr/share/cowsay/cows/fish.cow
 apt install softmaker-freeoffice-2018 -y || zenity --title="Peaker" --error  \
 --text="Ошибка. Проверьте подключение к интернету. Не удалось установить FreeOffice." \
 --ok-label="OK :(" #installing SoftMaker FreeOffice
